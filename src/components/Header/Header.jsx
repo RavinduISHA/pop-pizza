@@ -24,6 +24,7 @@ const navLinks = [
         path: '/contact',
         display: 'Contact'
     },
+  
 ]
 
 const Header = () => {

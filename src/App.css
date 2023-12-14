@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Anton&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -9,6 +10,16 @@
 body{
   font-family: 'Manrope', sans-serif;
 }
+
+.font-boogaloo {
+  font-family: 'Boogaloo', sans-serif;
+
+}
+
+.font-anton {
+  font-family: 'Anton', sans-serif;
+}
+
 
 .sticky__header{
   width: 100%;
