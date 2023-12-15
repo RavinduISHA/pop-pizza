@@ -62,4 +62,66 @@ body{
   .show__menu{
     display: block;
   }
+
+
 }
+
+
+/* Abouts */
+@media only screen and (width: 1280px) {
+  .test {
+      width: 200px;
+  }
+
+  .carasoul_width {
+      width: 350px;
+  }
+
+  /* Add more rules for other elements if needed */
+}
+@media only screen and (width: 1792px) {
+  .test {
+      width: 250px;
+  }
+
+  .carasoul_width {
+      width: 320px;
+  }
+
+  /* Add more rules for other elements if needed */
+}
+
+
+@media only screen and (min-width: 1366px) and (max-width: 1512px) {
+  .test {
+      width: 340px;
+      /* Adjust the width as needed */
+  }
+
+  .carasoul_width {
+      width: 320px;
+      /* Adjust the width as needed */
+  }
+
+  /* Add more rules for other elements if needed */
+}
+
+
+@media only screen and (width: 1920px) {
+  .car_text_margin {
+      position: relative;
+      left: 70px;
+  }
+
+  .car_logos img {
+      width: 250px;
+  }
+  @media (max-width: 767px) {
+      /* Hide background image on screens smaller than 768px width */
+      .md\:flex {
+          background-image: none;
+      }
+  }
+}
+
+/* About */
